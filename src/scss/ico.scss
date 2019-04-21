@@ -1,3 +1,25 @@
 .ico-home {
   background-image: url(../images/ico-home.png);
 }
+
+.ico-man {
+  background-image: url(../images/ico-man.png);
+}
+
+.ico-serv {
+  background-image: url(../images/ico-serv.png);
+}
+
+.ico-let {
+  background-image: url(../images/ico-let.png);
+}
+
+.ico-home,
+.ico-man,
+.ico-serv,
+.ico-let {
+  background-repeat: no-repeat;
+  background-position: left;
+  text-align: right;
+  padding-left: 25px;
+}

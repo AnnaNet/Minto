@@ -29,7 +29,7 @@ module.exports = {
         }
       },
       {
-        test: /\.(jpg|png)$/,
+        test: /\.(jpg|png|ttf)$/,
         use: [{
           loader: 'file-loader',
           options: {
@@ -46,10 +46,10 @@ module.exports = {
       chunkFilename: '[id].css'
     }),
     new CopyWebpackPlugin([
-      /*      {*/
-      //from: './src/fonts',
-      //to: './fonts'
-      //},
+      {
+        from: './src/fonts',
+        to: './fonts'
+      },
       //{
       //from: './src/favicon',
       //to: './favicon'
